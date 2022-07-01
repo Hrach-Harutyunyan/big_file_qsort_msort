@@ -3,7 +3,6 @@
 
 #include "SortInterface.hpp"
 
-
 class MergeSort : public SortingBigFile 
 {
 public:
@@ -18,7 +17,6 @@ private:
     void merge_sort (std::vector <int>&, int, int);
     void merge (std::vector <int>&, int, int, int);
 };
-
 
 #include "MergeImplemention.hpp"
 
