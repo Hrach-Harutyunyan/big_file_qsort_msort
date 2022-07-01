@@ -3,7 +3,6 @@
 
 #include "SortInterface.hpp"
 
-
 class QuickSort : public SortingBigFile
 {
 public:
@@ -17,7 +16,6 @@ public:
 private:
     void quick_sort(std::vector <int>&, int low, int high);
 };
-
 
 #include "QuickImplementation.hpp"
 
