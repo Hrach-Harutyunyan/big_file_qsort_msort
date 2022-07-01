@@ -47,8 +47,7 @@ void SortingBigFile::display() {
     }
 }
 
-namespace order 
-{
+namespace order  {
     void Sort(SortingBigFile* obj) {
         obj->sort();
     }
